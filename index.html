@@ -1,0 +1,132 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>8values</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+
+</script>
+</head>
+<body>
+<h1>zombie 8values</h1>
+<hr>
+<div class="center">
+    <div class="axis_name quadcolumn">SUPPLY</div>
+    <div class="axis_name quadcolumn">DIPLOMACY</div>
+    <div class="axis_name quadcolumn">SOCIETY</div>
+    <div class="axis_name quadcolumn">ZOMBIES</div>
+    <a href="#anchor"><img src="value_images/equality.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/nation.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/liberty.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/tradition.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/markets.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/globe.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/authority.svg" class="quadcolumn"></a>
+    <a href="#anchor"><img src="value_images/progress.svg" class="quadcolumn"></a>
+</div>
+<br>
+<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
+<br><hr>
+<h2>What is 8values?</h2>
+    <p>zombie 8values is, in essence, an apocalyptic spin on the political quiz that attempts to assign percentages for eight different scenario values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
+    There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
+
+<h2><a id="anchor">What are the eight values?</a></h2>
+    <p>There are four independent axes - Supply, Diplomacy, Society, and Zombies - and each has two opposing values assigned to them. They are:</p>
+    <div class="explanation_bg">
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#d32f2f;">MINIMALIST</b></p>
+                <p class="blurb-text">
+                    Those with higher Minimalist scores believe that less is more. They prioritise the necessary items to keep and push luxury aside. Though not always, they tend to be free wayfarers and value managing themselves.
+                  </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">SUPPLY</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#00796b;">HOARDING</b></p>
+                <p class="blurb-text">
+                    Those with higher Hoarding scores believe that more is better. They value a surplus of items and allow indulgence in luxuries. Though not always, they tend to stick to shelters and value sharing items.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#f57c00;">ALTRUISTIC</b></p>
+                <p class="blurb-text">
+                    Those with higher Altruistic scores believe in the advantage of more humans. They value utilitarian efforts and are more inclined to help strangers. At high values, they prioritise others survival over their own.
+                  </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">PEOPLE</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#0288d1;">SELF-PRESERVING</b></p>
+                <p class="blurb-text">
+                    Those with higher Preserving scores believe in minimising human-made risk. They value people’s skill-sets and are more inclined to distrust strangers. At high values, they prioritise their own survival over others.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#fbc02d;">LIBERTY</b></p>
+                <p class="blurb-text">
+                    Those with higher Liberty scores value an even playing field in the apocalypse. They value independent decisions, and avoid personal intervention. Though not always, they may trade in security for their own freedom. At high levels, they prefer small groups to larger groups.                </div>
+            <div class="explanation_axis">
+                <p class="axis_name">SOCIETY</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#303f9f;">AUTHORITY</b></p>
+                <p class="blurb-text">
+                    Those with higher Authority scores value the need for hierarchy in the apocalypse. They value abiding rules, and intervention into people’s actions. Though not always, they may trade in control for security. At high levels, they prefer large groups over small groups.                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#689f38;">DEFENSE</b></p>
+                <p class="blurb-text">
+                    Those with higher Defence scores tend to avoid zombies. They minimise resource wastage and outside interaction, preferring distance from any zombie hot spots. They may be more likely to run from zombies.            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">ZOMBIES</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#7b1fa2;">OFFENSE</b></p>
+                <p class="blurb-text">
+                    Those with higher Offense scores tend to attack zombies. They support active efforts of zombie erasure and reclaiming as much territory as possible for human safety. They may be more willing to fight zombies.            </div>
+        </div>
+        <br/>
+    </div>
+
+<h2>IMPORTANT READ FOR ZOMBIE TYPE</h2>
+    <p>Taditional zombies!<br/>
+        The zombies are slow walkers that react to sound and group up in hoards over time. Their skin rots, and the muscles are weakened, but their bones still hold up.  They will normally emit grumbling sounds unless dormant (a state of ‘sleep’ or ‘giving up’ after being unable to move while active, ends upon agitation). There are chances they will still move until their brain is damaged enough. The grumbling sound of a zombie will become more aggressive when they are consuming or hunting ‘food’. Zombies do NOT get tired and will attempt to chase someone unreasonably until a short time after they lose the presence of the person, (a small amount of object permanence, just with no deduction skills). It is unsure if there is a way for them to starve or die out naturally, and there is no current cure. One bite is infectious and will turn someone in an undetermined amount of days.<br>
+        Consider the FIRST 3 MONTHS of the apocalypse for this quiz.
+        <!-- Website visit statistics - no personal information is collected! -->
+<script type="text/javascript">
+var sc_project=11325211;
+var sc_invisible=1;
+var sc_security="fd9f0659";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+stats"></a></div></noscript>
+
+<!-- This is the script for the page itself -->
+<script type="application/javascript"src="questions.js"></script>
+<script type="text/javascript">
+    document.getElementById("numOfQuestions").innerHTML = questions.length;
+</script>
+</body>

@@ -252,7 +252,7 @@ questions = [
         }
     },
     {
-        "question": "The restriction of basic supplies to others is necessary for long-term survival.",
+        "question": "Restricting people's basic supplies is necessary for long term surival.",
         "effect": {
             "econ": -10,
             "dipl": 5,
